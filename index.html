@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <form class="login">
+            <input
+                required
+                type="text"
+                class="login__usurname"
+                placeholder="Enter usurname..." />
+            <div class="input-boxs">
+                <input
+                    required
+                    type="password"
+                    class="login__password"
+                    placeholder="Enter password..." />
+                <button class="eye__pass" type="button">
+                    <img
+                        src="./eyeclose.svg"
+                        width="20"
+                        height="20"
+                        alt="eye" />
+                </button>
+            </div>
+            <button type="submit" class="buttons">Login</button>
+            <button type="button" class="btn__open buttons">Regester</button>
+        </form>
+        <div class="wrapper"></div>
+
+        <div class="popap">
+            <div class="overlay"></div>
+            <form class="model">
+                <input
+                    required
+                    type="text"
+                    class="modul__name"
+                    placeholder="Enter name..." />
+                <input
+                    required
+                    type="text"
+                    class="modul__username"
+                    placeholder="Enter username..." />
+                <div class="input-box">
+                    <input
+                        required
+                        type="password"
+                        class="modul__password"
+                        placeholder="Enter password..." />
+                    <button class="eye__password" type="button">
+                        <img
+                            src="./eyeclose.svg"
+                            width="20"
+                            height="20"
+                            alt="eye" />
+                    </button>
+                </div>
+                <div class="input-boxss">
+                    <input
+                        required
+                        type="password"
+                        class="modul__password-confirm"
+                        placeholder="Repeat the password..." />
+                    <button class="eye__passwords" type="button">
+                        <img
+                            src="./eyeclose.svg"
+                            width="20"
+                            height="20"
+                            alt="eye" />
+                    </button>
+                </div>
+                <button class="buttons" type="submit">Regester</button>
+                <button type="button" class="btn__close buttons">Cancel</button>
+            </form>
+        </div>
+        <script type="module" src="./app.js"></script>
+    </body>
+</html>
